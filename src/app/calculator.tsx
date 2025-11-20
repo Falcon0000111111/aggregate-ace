@@ -119,7 +119,7 @@ export default function Calculator() {
             {aggregate.toFixed(4)}%
           </p>
         </div>
-        <Button onClick={handleReset} variant="outline" className="mt-2">
+        <Button onClick={handleReset} variant="outline" className="mt-2 border-primary/50 text-primary hover:bg-primary/10 hover:text-primary">
           <RefreshCw className="mr-2 h-4 w-4" /> Reset
         </Button>
       </CardFooter>
