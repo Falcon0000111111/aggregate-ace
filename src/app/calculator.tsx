@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useMemo } from "react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -119,7 +119,7 @@ export default function Calculator() {
             {aggregate.toFixed(4)}%
           </p>
         </div>
-        <Button onClick={handleReset} variant="outline" className="mt-2">
+        <Button onClick={handleReset} variant="secondary" className="mt-2">
           <RefreshCw className="mr-2 h-4 w-4" /> Reset
         </Button>
       </CardFooter>
